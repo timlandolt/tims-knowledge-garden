@@ -1,0 +1,19 @@
+---
+{"dg-publish":true,"permalink":"/knowledge/npm-version-specifiers/","tags":["npm","nodejs","webdevelopement","versioning"]}
+---
+
+---
+
+| value       | desc                                                                                                                                                                                                                                                                                                  |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `~version`  | Approximately equivalent to version, i.e., only accept new **patch** versions.  <br>_Patch releases add "Backward compatible bug fixes" and "Increment the third digit"._  <br>See [npm semver - Tilde Ranges](https://github.com/npm/node-semver#tilde-ranges-123-12-1)                              |
+| `^version`  | Compatible with version, i.e., accept new **minor and patch** versions.  <br>_Minor releases add "Backward compatible new features" and "Increment the middle digit and reset last digit to zero"._  <br>See [npm semver - Caret Ranges](https://github.com/npm/node-semver#caret-ranges-123-025-004) |
+| `version`   | Must match version exactly                                                                                                                                                                                                                                                                            |
+| `>version`  | Must be greater than version                                                                                                                                                                                                                                                                          |
+| `>=version` | Must be equal or greater than version                                                                                                                                                                                                                                                                 |
+| `<version`  | Must be lesser than version                                                                                                                                                                                                                                                                           |
+| `<=version` | Must be equal or lesser than version                                                                                                                                                                                                                                                                  |
+| `1.2.x`     | 1.2.0, 1.2.1, etc., but not 1.3.0                                                                                                                                                                                                                                                                     |
+| `*`         | Matches any version                                                                                                                                                                                                                                                                                   |
+| `latest`    | Obtains latest release                                                                                                                                                                                                                                                                                |
+
