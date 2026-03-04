@@ -4,6 +4,8 @@
 
 
 ---
+Is a part of [[Knowledge/Active Record\|Active Record]]
+
 ## Retrieving Objects from DB
 ### Find
 

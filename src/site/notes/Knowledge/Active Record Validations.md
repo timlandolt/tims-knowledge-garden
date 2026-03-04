@@ -3,6 +3,7 @@
 ---
 
 ---
+Is a part of [[Knowledge/Active Record\|Active Record]]
 
 ## Saving model in DB
  ```ruby

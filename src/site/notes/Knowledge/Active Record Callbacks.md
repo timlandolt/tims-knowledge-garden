@@ -4,6 +4,7 @@
 
 
 ---
+Is a part of [[Knowledge/Active Record\|Active Record]]
 
 ## Registering a Callback
 ### Macro-style class method
