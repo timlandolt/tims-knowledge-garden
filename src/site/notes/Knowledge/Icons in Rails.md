@@ -4,7 +4,7 @@
 
 ---
 
-While working on the redesign of the SwissICT Salärstudie I came across the challenge of adding the icons used in the [[figma\|figma]] design into the project. I've looked through various projects of ours to see how Icons usually get implemented. It turns out, that there is no such thing as the "normal" way of adding icons. Here are some of the options I found or came up with:
+I recently came across the challenge of adding the icons used in the [[figma\|figma]] design into a project. I've looked through various projects of ours to see how Icons usually get implemented. It turns out, that there is no such thing as the "normal" way of adding icons. Here are some of the options I found or came up with:
 
 - Adding them as images
 - Setting them as background images of pseudo-elements
