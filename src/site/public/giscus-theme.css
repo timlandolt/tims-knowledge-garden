@@ -1,0 +1,77 @@
+/*!
+ * Modified for Everforest Theme Palette
+ * Inspired by Obsidian Everforest & GitHub Dark Dimmed
+ */
+main {
+  /* Syntax Highlighting - Everforest Palette */
+  --color-prettylights-syntax-comment: #859289;          /* grey1 */
+  --color-prettylights-syntax-constant: #d699b6;         /* fg-purple */
+  --color-prettylights-syntax-entity: #7fbbb3;           /* fg-blue */
+  --color-prettylights-syntax-storage-modifier-import: #d3c6aa; /* fg */
+  --color-prettylights-syntax-entity-tag: #e67e80;       /* fg-red */
+  --color-prettylights-syntax-keyword: #e69875;          /* fg-orange */
+  --color-prettylights-syntax-string: #a7c080;           /* fg-green */
+  --color-prettylights-syntax-variable: #dbbc7f;         /* fg-yellow */
+  --color-prettylights-syntax-brackethighlighter-unmatched: #e67e80;
+  --color-prettylights-syntax-invalid-illegal-text: #d3c6aa;
+  --color-prettylights-syntax-invalid-illegal-bg: #59464c; /* bg-red */
+  --color-prettylights-syntax-carriage-return-text: #d3c6aa;
+  --color-prettylights-syntax-carriage-return-bg: #e67e80;
+  --color-prettylights-syntax-string-regexp: #83c092;    /* fg-aqua */
+  --color-prettylights-syntax-markup-list: #dbbc7f;      /* fg-yellow */
+  --color-prettylights-syntax-markup-heading: #7fbbb3;   /* fg-blue */
+  --color-prettylights-syntax-markup-italic: #d3c6aa;
+  --color-prettylights-syntax-markup-bold: #d3c6aa;
+  --color-prettylights-syntax-markup-deleted-text: #e67e80;
+  --color-prettylights-syntax-markup-deleted-bg: #59464c;
+  --color-prettylights-syntax-markup-inserted-text: #a7c080;
+  --color-prettylights-syntax-markup-inserted-bg: #48584e; /* bg-green */
+  --color-prettylights-syntax-markup-changed-text: #e69875;
+  --color-prettylights-syntax-markup-changed-bg: #55544a;  /* bg-yellow */
+  --color-prettylights-syntax-markup-ignored-text: #d3c6aa;
+  --color-prettylights-syntax-markup-ignored-bg: #3f5865;  /* bg-blue */
+  --color-prettylights-syntax-meta-diff-range: #d699b6;
+  --color-prettylights-syntax-brackethighlighter-angle: #859289;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #4d5960;
+  --color-prettylights-syntax-constant-other-reference-link: #7fbbb3;
+
+  /* UI Components */
+  --color-btn-text: #d3c6aa;                             /* fg */
+  --color-btn-bg: #3a464c;                               /* bg1 */
+  --color-btn-border: #4d5960;                           /* bg3 */
+  --color-btn-hover-bg: #434f55;                         /* bg2 */
+  --color-btn-hover-border: #555f66;                     /* bg4 */
+  --color-btn-active-bg: #4d5960;
+  --color-btn-selected-bg: #293136;                      /* bg-dim */
+
+  --color-btn-primary-text: #293136;
+  --color-btn-primary-bg: #a7c080;                       /* fg-green */
+  --color-btn-primary-border: #a7c080;
+  --color-btn-primary-hover-bg: #83c092;                 /* fg-aqua */
+
+  --color-fg-default: #d3c6aa;                           /* fg */
+  --color-fg-muted: #9da9a0;                             /* grey2 */
+  --color-fg-subtle: #859289;                            /* grey1 */
+  --color-canvas-default: #2d353b;                       /* bg0 (Everforest Hard/Medium) */
+  --color-canvas-overlay: #293136;                       /* bg-dim */
+  --color-canvas-inset: #343f44;                         /* bg1 variant */
+  --color-canvas-subtle: #3a464c;                        /* bg1 */
+  --color-border-default: #4d5960;                       /* bg3 */
+  --color-border-muted: #434f55;                         /* bg2 */
+
+  --color-accent-fg: #7fbbb3;                            /* fg-blue */
+  --color-accent-emphasis: #5a93a2;                      /* header-blue */
+  --color-success-fg: #a7c080;                           /* fg-green */
+  --color-attention-fg: #dbbc7f;                         /* fg-yellow */
+  --color-danger-fg: #e67e80;                            /* fg-red */
+}
+
+/* Specific background adjustments for Giscus/GitHub layout */
+.gsc-homepage-bg {
+  background-color: #2d353b !important;
+}
+
+main .gsc-loading-image {
+  /* You may want to replace this with a neutral or green loader if desired */
+  filter: sepia(0.5) hue-rotate(60deg);
+}
