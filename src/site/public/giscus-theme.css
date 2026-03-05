@@ -1,77 +1,77 @@
 /*!
- * Modified for Everforest Theme Palette
- * Inspired by Obsidian Everforest & GitHub Dark Dimmed
+ * Modified for Everforest Light Theme Palette
+ * Inspired by Obsidian Everforest Light & GitHub Primitives
  */
 main {
-  /* Syntax Highlighting - Everforest Palette */
-  --color-prettylights-syntax-comment: #859289;          /* grey1 */
-  --color-prettylights-syntax-constant: #d699b6;         /* fg-purple */
-  --color-prettylights-syntax-entity: #7fbbb3;           /* fg-blue */
-  --color-prettylights-syntax-storage-modifier-import: #d3c6aa; /* fg */
-  --color-prettylights-syntax-entity-tag: #e67e80;       /* fg-red */
-  --color-prettylights-syntax-keyword: #e69875;          /* fg-orange */
-  --color-prettylights-syntax-string: #a7c080;           /* fg-green */
-  --color-prettylights-syntax-variable: #dbbc7f;         /* fg-yellow */
-  --color-prettylights-syntax-brackethighlighter-unmatched: #e67e80;
-  --color-prettylights-syntax-invalid-illegal-text: #d3c6aa;
-  --color-prettylights-syntax-invalid-illegal-bg: #59464c; /* bg-red */
-  --color-prettylights-syntax-carriage-return-text: #d3c6aa;
-  --color-prettylights-syntax-carriage-return-bg: #e67e80;
-  --color-prettylights-syntax-string-regexp: #83c092;    /* fg-aqua */
-  --color-prettylights-syntax-markup-list: #dbbc7f;      /* fg-yellow */
-  --color-prettylights-syntax-markup-heading: #7fbbb3;   /* fg-blue */
-  --color-prettylights-syntax-markup-italic: #d3c6aa;
-  --color-prettylights-syntax-markup-bold: #d3c6aa;
-  --color-prettylights-syntax-markup-deleted-text: #e67e80;
-  --color-prettylights-syntax-markup-deleted-bg: #59464c;
-  --color-prettylights-syntax-markup-inserted-text: #a7c080;
-  --color-prettylights-syntax-markup-inserted-bg: #48584e; /* bg-green */
-  --color-prettylights-syntax-markup-changed-text: #e69875;
-  --color-prettylights-syntax-markup-changed-bg: #55544a;  /* bg-yellow */
-  --color-prettylights-syntax-markup-ignored-text: #d3c6aa;
-  --color-prettylights-syntax-markup-ignored-bg: #3f5865;  /* bg-blue */
-  --color-prettylights-syntax-meta-diff-range: #d699b6;
-  --color-prettylights-syntax-brackethighlighter-angle: #859289;
-  --color-prettylights-syntax-sublimelinter-gutter-mark: #4d5960;
-  --color-prettylights-syntax-constant-other-reference-link: #7fbbb3;
+  /* Syntax Highlighting - Everforest Light Palette */
+  --color-prettylights-syntax-comment: #939f91;          /* grey1 */
+  --color-prettylights-syntax-constant: #df69ba;         /* fg-purple */
+  --color-prettylights-syntax-entity: #3a94c5;           /* fg-blue */
+  --color-prettylights-syntax-storage-modifier-import: #5c6a72; /* fg */
+  --color-prettylights-syntax-entity-tag: #f85552;       /* fg-red */
+  --color-prettylights-syntax-keyword: #f57d26;          /* fg-orange */
+  --color-prettylights-syntax-string: #8da101;           /* fg-green */
+  --color-prettylights-syntax-variable: #dfa000;         /* fg-yellow */
+  --color-prettylights-syntax-brackethighlighter-unmatched: #f85552;
+  --color-prettylights-syntax-invalid-illegal-text: #fffbef;
+  --color-prettylights-syntax-invalid-illegal-bg: #f85552;
+  --color-prettylights-syntax-carriage-return-text: #fffbef;
+  --color-prettylights-syntax-carriage-return-bg: #f57d26;
+  --color-prettylights-syntax-string-regexp: #35a77c;    /* fg-aqua */
+  --color-prettylights-syntax-markup-list: #dfa000;      /* fg-yellow */
+  --color-prettylights-syntax-markup-heading: #3a94c5;   /* fg-blue */
+  --color-prettylights-syntax-markup-italic: #5c6a72;
+  --color-prettylights-syntax-markup-bold: #5c6a72;
+  --color-prettylights-syntax-markup-deleted-text: #f85552;
+  --color-prettylights-syntax-markup-deleted-bg: #ffe7de; /* bg-red */
+  --color-prettylights-syntax-markup-inserted-text: #8da101;
+  --color-prettylights-syntax-markup-inserted-bg: #f3f5d9; /* bg-green */
+  --color-prettylights-syntax-markup-changed-text: #f57d26;
+  --color-prettylights-syntax-markup-changed-bg: #fef2d5;  /* bg-yellow */
+  --color-prettylights-syntax-markup-ignored-text: #939f91;
+  --color-prettylights-syntax-markup-ignored-bg: #ecf5ed;  /* bg-blue */
+  --color-prettylights-syntax-meta-diff-range: #df69ba;
+  --color-prettylights-syntax-brackethighlighter-angle: #939f91;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #bec5b2;
+  --color-prettylights-syntax-constant-other-reference-link: #3a94c5;
 
-  /* UI Components */
-  --color-btn-text: #d3c6aa;                             /* fg */
-  --color-btn-bg: #3a464c;                               /* bg1 */
-  --color-btn-border: #4d5960;                           /* bg3 */
-  --color-btn-hover-bg: #434f55;                         /* bg2 */
-  --color-btn-hover-border: #555f66;                     /* bg4 */
-  --color-btn-active-bg: #4d5960;
-  --color-btn-selected-bg: #293136;                      /* bg-dim */
+  /* UI Components - Everforest Light */
+  --color-btn-text: #5c6a72;                             /* fg */
+  --color-btn-bg: #f2efdf;                               /* bg2 / bg-dim */
+  --color-btn-border: #edeada;                           /* bg3 */
+  --color-btn-hover-bg: #e8e5d5;                         /* bg4 */
+  --color-btn-hover-border: #bec5b2;                     /* bg5 */
+  --color-btn-active-bg: #bec5b2;
+  --color-btn-selected-bg: #f8f5e4;                      /* bg1 */
 
-  --color-btn-primary-text: #293136;
-  --color-btn-primary-bg: #a7c080;                       /* fg-green */
-  --color-btn-primary-border: #a7c080;
-  --color-btn-primary-hover-bg: #83c092;                 /* fg-aqua */
+  --color-btn-primary-text: #fffbef;                     /* bg0 */
+  --color-btn-primary-bg: #8da101;                       /* fg-green */
+  --color-btn-primary-border: #8da101;
+  --color-btn-primary-hover-bg: #35a77c;                 /* fg-aqua */
 
-  --color-fg-default: #d3c6aa;                           /* fg */
-  --color-fg-muted: #9da9a0;                             /* grey2 */
-  --color-fg-subtle: #859289;                            /* grey1 */
-  --color-canvas-default: #2d353b;                       /* bg0 (Everforest Hard/Medium) */
-  --color-canvas-overlay: #293136;                       /* bg-dim */
-  --color-canvas-inset: #343f44;                         /* bg1 variant */
-  --color-canvas-subtle: #3a464c;                        /* bg1 */
-  --color-border-default: #4d5960;                       /* bg3 */
-  --color-border-muted: #434f55;                         /* bg2 */
+  --color-fg-default: #5c6a72;                           /* fg */
+  --color-fg-muted: #829181;                             /* grey2 */
+  --color-fg-subtle: #939f91;                            /* grey1 */
+  --color-canvas-default: #fffbef;                       /* bg0 */
+  --color-canvas-overlay: #f2efdf;                       /* bg-dim */
+  --color-canvas-inset: #f8f5e4;                         /* bg1 */
+  --color-canvas-subtle: #f2efdf;                        /* bg2 */
+  --color-border-default: #edeada;                       /* bg3 */
+  --color-border-muted: #f2efdf;                         /* bg2 */
 
-  --color-accent-fg: #7fbbb3;                            /* fg-blue */
+  --color-accent-fg: #3a94c5;                            /* fg-blue */
   --color-accent-emphasis: #5a93a2;                      /* header-blue */
-  --color-success-fg: #a7c080;                           /* fg-green */
-  --color-attention-fg: #dbbc7f;                         /* fg-yellow */
-  --color-danger-fg: #e67e80;                            /* fg-red */
+  --color-success-fg: #8da101;                           /* fg-green */
+  --color-attention-fg: #dfa000;                         /* fg-yellow */
+  --color-danger-fg: #f85552;                            /* fg-red */
 }
 
-/* Specific background adjustments for Giscus/GitHub layout */
+/* Specific Light Mode background adjustments */
 .gsc-homepage-bg {
-  background-color: #2d353b !important;
+  background-color: #fffbef !important;
 }
 
 main .gsc-loading-image {
-  /* You may want to replace this with a neutral or green loader if desired */
-  filter: sepia(0.5) hue-rotate(60deg);
+  /* Softens the loader for the light background */
+  filter: sepia(0.2) brightness(1.1);
 }
