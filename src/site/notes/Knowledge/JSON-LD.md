@@ -13,18 +13,18 @@ It is used to provide structured data to search engines. This enables them to be
 ```json
 <script type="application/ld+json">
  {
-"@context" : "https://schema.org",
-"@type" : "Article",
-"name" : "JSON-LD and SEO",
-"author" : {
-"@type" : "Person",
-"name" : "John Doe"
-},
-"datePublished" : "2020-10-05",
-"articleBody" : "JSON-LD can improve your site’s SEO performance because it helps search engines understand what a page is about. It also helps your site stick out in the SERPs, helping to improve your CTR.\nMajor search engines like Google encourage SEO specialists to use JSON-LD to improve their performance.",
-"publisher" : {
-"@type" : "Organization",
-"name" : "CompanyABC"
+  "@context" : "https://schema.org",
+  "@type" : "Article",
+  "name" : "JSON-LD and SEO",
+  "author" : {
+    "@type" : "Person",
+    "name" : "John Doe"
+  },
+  "datePublished" : "2020-10-05",
+  "articleBody" : "JSON-LD can improve your site’s SEO performance because it helps search engines understand what a page is about. It also helps your site stick out in the SERPs, helping to improve your CTR.\nMajor search engines like Google encourage SEO specialists to use JSON-LD to improve their performance.",
+  "publisher" : {
+    "@type" : "Organization",
+    "name" : "CompanyABC"
   }
 }
 </script>
