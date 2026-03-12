@@ -15,8 +15,8 @@ The chain ends when a prototype is set to null.
 graph LR
 
 A["const nums = [1, 2, 3]"]:::main
-A-->|prototype:|B[Array]
-B-->|prototype:|C[Object]
-C-->|prototype:|D[null]
+A-->|.\_\_proto__|B[Array]
+B-->|.\_\_proto__|C[Object]
+C-->|.\_\_proto__|D[null]
 ```
 
