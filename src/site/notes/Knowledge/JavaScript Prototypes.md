@@ -20,3 +20,17 @@ B-->|.__proto__|C[Object]
 C-->|.__proto__|D[null]
 ```
 
+## `__proto__` vs `prototype`
+
+`prototype` is defined on the constructor of an object. `__proto__` is defined on the instance of the object.
+
+```js
+function Person(name) {
+  this.name = name;
+}
+
+const bob = new Person("Bob");
+
+bob.__proto__ === Person.prototype // true
+```
+
