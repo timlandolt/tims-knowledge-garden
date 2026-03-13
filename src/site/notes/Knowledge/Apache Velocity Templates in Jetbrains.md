@@ -56,6 +56,7 @@ But you can use ranges to emulate a regular for.
 
 ## File Templates
 In JetBrains IDEs you can create file templates using Velocity.
+\> [File templates \| IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/using-file-and-code-templates.html)
 
 `Settings > Editor > File and Code Templates`
 
