@@ -57,7 +57,9 @@ But you can use ranges to emulate a regular for.
 ## File Templates
 In JetBrains IDEs you can create file templates using Velocity.
 
-To get an Input, just reverence an undeclared variable. Underscores get turned into spaces:
+`Settings > Editor > File and Code Templates`
+
+To get an Input, just reference an undeclared variable. Underscores get turned into spaces:
 
 ```velocity
 Hello $Your_Name
@@ -66,7 +68,7 @@ Hello $Your_Name
 ![Pasted image 20260213073823.png](/img/user/Ressources/Pasted%20image%2020260213073823.png)
 Sadly, it's not possible to get other inputs than text.
 
-You can also use all the possibilities that Live Templates bring (like cursor positioning, tabbing through, enums, ...).
+You can also use all the possibilities that Live Templates bring (like cursor positioning, tabbing through, enums, ...). > [Create live templates \| IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/creating-and-editing-live-templates.html)
 
 ### Example: Stimulus Controller
 **File name:**
@@ -93,5 +95,3 @@ export default class HelloWorldController extends Controller {
   |
 }
 ```
-
-	
