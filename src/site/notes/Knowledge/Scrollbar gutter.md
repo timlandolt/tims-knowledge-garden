@@ -4,7 +4,7 @@
 
 ---
 
-When no scrollbar is present, it adds a gutter (like a padding). This prevents tha layout from shifting.
+When no scrollbar is present, this [[Knowledge/CSS\|CSS]] property it adds a gutter (like a padding). This prevents tha layout from shifting.
 
 ```css
 html {

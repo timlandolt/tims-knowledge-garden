@@ -13,7 +13,7 @@
 ## Common Datatypes
 
 - **Number** - All numeric values are represented by the number type, there aren't separate definitions for integers, floats or others.
-- **String** - The text type, just like in vanilla JS strings can be surrounded by 'single quotes' or "double quotes".
+- **String** - The text type, just like in vanilla [[Knowledge/JavaScript\|JS]] strings can be surrounded by 'single quotes' or "double quotes".
 - **Boolean** - `true` or `false`, using 0 and 1 will cause a compilation error.
 - **Any** - A variable with this type can have it's value set to a string, number, or ***any***thing else.
 - **Arrays** - Has two possible syntaxes: `my_arr: number[];` or `my_arr: Array<number>`.
@@ -82,7 +82,7 @@ class HappyMeal extends Menu {
 ```
 
 >[!note]
->There are also native js classes, but they do not support static typing, access modifiers and more.
+>There are also native [[Knowledge/JavaScript\|js]] classes, but they do not support static typing, access modifiers and more.
 
 [TypeScript: Handbook - Classes](http://www.typescriptlang.org/docs/handbook/classes.html)
 

@@ -8,7 +8,7 @@ From Greek:
 - **prōto-** = “first”
 - **typos** = “impression, model, pattern, or stamp”
 
-Prototypes are the way inheritance is handled in JavaScript. Every JS Object has a prototype. The prototype again is also set to an Object. => Prototype Chain
+Prototypes are the way inheritance is handled in [[Knowledge/JavaScript\|JavaScript]]. Every [[Knowledge/JavaScript\|JS]] Object has a prototype. The prototype again is also set to an Object. => Prototype Chain
 The chain ends when a prototype is set to null.
 
 ```mermaid
@@ -38,5 +38,3 @@ bob.__proto__ === Person.prototype // true
 
 ## Setting the prototype to an instance
 Something that makes prototypes very different from regular inheritance is that it can be set to an instance. This enables for quite some memory efficiency.
-The 
-

@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/knowledge/standardgems/"}
 ---
 
+
+
 **The difference between "default gems", "bundled gems" and "libraries".**
 
 

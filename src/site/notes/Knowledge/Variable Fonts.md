@@ -8,7 +8,7 @@
 Variable fonts are available for TrueType (.ttf), OpenType (.otf) and Web Open Font Format (.woff2).
 Most variable fonts come in TrueType, but for Web, the woff2 format is preferred, as it is much smaller. Variable fonts can become quite large.
 
-## Loading Variable Fonts in CSS
+## Loading Variable Fonts in [[Knowledge/CSS\|CSS]]
 
 ```css
 @font-face {  

@@ -3,7 +3,7 @@
 ---
 
 ## Object deconstruction
-To understand how named (and unordered) arguments in JavaScript work, we have to understand the principles behind object deconstruction in JavaScript.
+To understand how named (and unordered) arguments in [[Knowledge/JavaScript\|JavaScript]] work, we have to understand the principles behind object deconstruction in [[Knowledge/JavaScript\|JavaScript]].
 
 Basically you can split up an object into multiple single variables using object deconstruction. The syntax is as followed:
 

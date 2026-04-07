@@ -4,7 +4,7 @@
 
 ---
 
-## Basic usage
+## Basic usage of [[Knowledge/CSS\|CSS]] Media Queries
 
 ```css
 @media only screen and (max-width: 600px) {

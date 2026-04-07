@@ -4,7 +4,7 @@
 
 ---
 
-=> library for organizing, caching, and serving static assets in [[Knowledge/Ruby on Rails\|Ruby on Rails]]
+=> library for organizing, caching, and serving static assets like images, [[Knowledge/JavaScript\|JavaScript]] or [[Knowledge/CSS\|CSS]] in [[Knowledge/Ruby on Rails\|Ruby on Rails]]
 
 > [!info] Since rails 8, Propshaft is the default asset pipeline for rails. Before it was Sprockets
 

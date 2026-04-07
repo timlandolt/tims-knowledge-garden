@@ -4,7 +4,7 @@
 
 ---
 
-The `enctype` attribute on form tags specify how the form data should be encoded when delivered using the `POST` method. 
+The `enctype` attribute on [[Knowledge/HTML\|HTML]] form tags specify how the form data should be encoded when delivered using the `POST` method. 
 
 ```html
 <form enctype="value">

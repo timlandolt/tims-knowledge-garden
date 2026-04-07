@@ -43,7 +43,7 @@ Include the google material icons (or symbols for more customizability) using th
 ## Google icons/symbols (the better way)
 
 First download the Font from the [material symbols Github repo](https://github.com/google/material-design-icons)
-Then write a helper, that inserts the material symbols codepoints. For further customization, use CSS classes:
+Then write a helper, that inserts the material symbols codepoints. For further customization, use [[Knowledge/CSS\|CSS]] classes:
 
 ```scss
 // _material_symbol.scss
@@ -95,7 +95,7 @@ This approach has the problem that the whole font has to be loaded...
 
 ### Using pseudo-elements
 
-It is also quite nice to set the icons in pseudo-elements based on the class, so all the frontend stuff stays completely in the views/css (and also if you want to use it in plain html projects).
+It is also quite nice to set the icons in pseudo-elements based on the class, so all the frontend stuff stays completely in the views/css (and also if you want to use it in plain [[Knowledge/HTML\|html]] projects).
 
 ```html
 <!--index.html-->

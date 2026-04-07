@@ -4,6 +4,8 @@
 
 ---
 
+You can pass more than just numbers to the [[Knowledge/CSS\|CSS]] width property:
+
 **width: min-content;**
 - as thin as possible
 

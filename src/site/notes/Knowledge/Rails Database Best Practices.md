@@ -3,7 +3,7 @@
 ---
 
 ---
-*Based on [this](https://web.archive.org/web/20221226000533/https://blog.carbonfive.com/rails-database-best-practices) article about [[Knowledge/Ruby on Rails\|rails]] database best practices*
+*Based on [this](https://web.archive.org/web/20221226000533/https://blog.carbonfive.com/rails-database-best-practices) article about [[Knowledge/Active Record\|Active Record]] best practices*
 
 ## Efficient and chainable Scopes
 

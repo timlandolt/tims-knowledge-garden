@@ -6,7 +6,7 @@
 
 > [!info] **SMACSS** = **S**calable and **M**odular **A**rchitecture for **CSS**
 
-SMACSS categorizes the CSS styles in 5 categories:
+SMACSS categorizes the [[Knowledge/CSS\|CSS]] styles in 5 categories:
 
 1. base
 2. layout
@@ -18,7 +18,7 @@ These can be separate files or folders.
 
 ## Base
 
-For HTML tags like `body`, `a`, `a:hover`, etc. It also includes the reset CSS.
+For [[Knowledge/HTML\|HTML]] tags like `body`, `a`, `a:hover`, etc. It also includes the reset CSS.
 
 ```css
 body, form { margin: 0; padding: 0; }
@@ -50,7 +50,7 @@ Reusable blocks.
 
 ## State
 
-State describes how the appearance changes in different situations. These classes are applied by JS in most cases.
+State describes how the appearance changes in different situations. These classes are applied by [[Knowledge/JavaScript\|JS]] in most cases.
 State classes are prefixed with `is-`
 
 ```css

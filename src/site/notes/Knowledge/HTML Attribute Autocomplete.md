@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/knowledge/html-attribute-autocomplete/"}
 ---
 
-Does what you would expect: Assists software like password managers to automatically fill in form fields. 
+The [[Knowledge/HTML\|HTML]] autocomplete attribute does what you would expect: Assists software like password managers to automatically fill in form fields. 
 The attribute is available on `<input>` elements that take a text or numeric value as input, `<textarea>` elements, `<select>` elements, and `<form>` elements.
 
 What's interesting, is that they also serve a purpose on hidden form attributes. When applied to a hidden input that has a value set, the user client can use these values for context. For example to choose the most relevant credit card based on the amount and currency:

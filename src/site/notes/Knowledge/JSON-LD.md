@@ -4,7 +4,7 @@
 
 ---
 
->[!faq]  = JavaScript Object Notation for Linked Data
+>[!faq]  = [[Knowledge/JavaScript\|JavaScript]] Object Notation for Linked Data
 
 JSON-LD allows us to add semantic information to JSON that's missing normally.
 It is used to provide structured data to search engines. This enables them to better find a matching result for a search query, but it also helps to display fancy stuff on the results page.
