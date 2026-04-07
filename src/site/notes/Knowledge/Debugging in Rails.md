@@ -3,6 +3,7 @@
 ---
 
 ---
+Some tools used for debugging in [[Knowledge/Ruby on Rails\|Rails]].
 
 ## View Helpers
 ### `debug`

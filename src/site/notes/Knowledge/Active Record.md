@@ -4,8 +4,8 @@
 
 ---
 
-Active Record is the model layer in [[Ruby on Rails\|Ruby on Rails]].
-It also refers to a software architecture pattern which is implemented as Active Record in [[Rails\|Rails]]. 
+Active Record is the model layer in [[Knowledge/Ruby on Rails\|Ruby on Rails]].
+It also refers to a software architecture pattern which is implemented as Active Record in [[Knowledge/Ruby on Rails\|Rails]]. 
 
 ## Active Record as Pattern
 

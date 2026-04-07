@@ -4,7 +4,7 @@
 
 ---
 
-Devise is an authentication for rails based on [[Knowledge/Warden\|Warden]]. 
+Devise is an authentication for [[Knowledge/Ruby on Rails\|Rails]] based on [[Knowledge/Warden\|Warden]]. 
 It is module based and consists of the following 10 modules:
 
 - **Database Authenticatable**: hashes and stores a password in the database to validate the authenticity of a user while signing in. The authentication can be done both through POST requests or HTTP Basic Authentication.

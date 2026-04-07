@@ -66,7 +66,7 @@ render variants: [:mobile, :desktop]
 ```
 
 #### Using Layouts
-Rails automatically checks if there is a layout with the same name as the controller. Else it falls back to the `application.html.erb`. You can also set it manually.
+[[Knowledge/Ruby on Rails\|Rails]] automatically checks if there is a layout with the same name as the controller. Else it falls back to the `application.html.erb`. You can also set it manually.
 
 ```rb
 class ProductsController < ApplicationController

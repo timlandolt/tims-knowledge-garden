@@ -40,5 +40,5 @@ Sec-WebSocket-Accept adds the Sec-WebSocket-Key to a GUID which is then hashed u
 This header defines sub-protocols. Common ones are MQTT, WAMP or STOMP. It is also possible to define custom ones (like the ones above).
 
 ## Implementations
-- Rails: [[Knowledge/ActionCable\|ActionCable]]
+- Rails: [[Knowledge/Action Cable\|Action Cable]]
 - ASP.NET: SignalR

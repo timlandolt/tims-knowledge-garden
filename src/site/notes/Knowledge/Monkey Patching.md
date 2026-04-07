@@ -5,4 +5,4 @@
 ---
 
 = Making changes to a module or class while the program is running. For example replacing the api calls with mocks during runtime.
-Very common practice in Ruby / Ruby on Rails
+Very common practice in Ruby / [[Knowledge/Ruby on Rails\|Ruby on Rails]]
