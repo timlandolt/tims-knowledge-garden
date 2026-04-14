@@ -15,10 +15,10 @@
 
 ## Recently edited
 <p><span><ul>
+<li dir="auto">2026-04-14 - <a data-tooltip-position="top" aria-label="Knowledge/Names in Cryptography.md" data-href="Knowledge/Names in Cryptography.md" href="Knowledge/Names in Cryptography.md" class="internal-link" target="_blank" rel="noopener nofollow">Names in Cryptography</a></li>
 <li dir="auto">2026-04-09 - <a data-tooltip-position="top" aria-label="Knowledge/12 Factor App.md" data-href="Knowledge/12 Factor App.md" href="Knowledge/12 Factor App.md" class="internal-link" target="_blank" rel="noopener nofollow">12 Factor App</a></li>
 <li dir="auto">2026-04-08 - <a data-tooltip-position="top" aria-label="Knowledge/focus-visible.md" data-href="Knowledge/focus-visible.md" href="Knowledge/focus-visible.md" class="internal-link" target="_blank" rel="noopener nofollow">focus-visible</a></li>
 <li dir="auto">2026-04-07 - <a data-tooltip-position="top" aria-label="Knowledge/TypeScript.md" data-href="Knowledge/TypeScript.md" href="Knowledge/TypeScript.md" class="internal-link" target="_blank" rel="noopener nofollow">TypeScript</a></li>
 <li dir="auto">2026-04-07 - <a data-tooltip-position="top" aria-label="Knowledge/Rails Asset Pipeline.md" data-href="Knowledge/Rails Asset Pipeline.md" href="Knowledge/Rails Asset Pipeline.md" class="internal-link" target="_blank" rel="noopener nofollow">Rails Asset Pipeline</a></li>
-<li dir="auto">2026-04-07 - <a data-tooltip-position="top" aria-label="Knowledge/Named JavaScript arguments.md" data-href="Knowledge/Named JavaScript arguments.md" href="Knowledge/Named JavaScript arguments.md" class="internal-link" target="_blank" rel="noopener nofollow">Named JavaScript arguments</a></li>
 </ul></span></p>
 
