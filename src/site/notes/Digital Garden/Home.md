@@ -15,10 +15,10 @@
 
 ## Recently edited
 <p><span><ul>
+<li dir="auto">2026-04-15 - <a data-tooltip-position="top" aria-label="Knowledge/Metasyntactic Variables.md" data-href="Knowledge/Metasyntactic Variables.md" href="Knowledge/Metasyntactic Variables.md" class="internal-link" target="_blank" rel="noopener nofollow">Metasyntactic Variables</a></li>
 <li dir="auto">2026-04-15 - <a data-tooltip-position="top" aria-label="Knowledge/One-Way Data Binding.md" data-href="Knowledge/One-Way Data Binding.md" href="Knowledge/One-Way Data Binding.md" class="internal-link" target="_blank" rel="noopener nofollow">One-Way Data Binding</a></li>
 <li dir="auto">2026-04-15 - <a data-tooltip-position="top" aria-label="Knowledge/Two-Way Data Binding.md" data-href="Knowledge/Two-Way Data Binding.md" href="Knowledge/Two-Way Data Binding.md" class="internal-link" target="_blank" rel="noopener nofollow">Two-Way Data Binding</a></li>
 <li dir="auto">2026-04-14 - <a data-tooltip-position="top" aria-label="Knowledge/Names in Cryptography.md" data-href="Knowledge/Names in Cryptography.md" href="Knowledge/Names in Cryptography.md" class="internal-link" target="_blank" rel="noopener nofollow">Names in Cryptography</a></li>
 <li dir="auto">2026-04-09 - <a data-tooltip-position="top" aria-label="Knowledge/12 Factor App.md" data-href="Knowledge/12 Factor App.md" href="Knowledge/12 Factor App.md" class="internal-link" target="_blank" rel="noopener nofollow">12 Factor App</a></li>
-<li dir="auto">2026-04-08 - <a data-tooltip-position="top" aria-label="Knowledge/focus-visible.md" data-href="Knowledge/focus-visible.md" href="Knowledge/focus-visible.md" class="internal-link" target="_blank" rel="noopener nofollow">focus-visible</a></li>
 </ul></span></p>
 
