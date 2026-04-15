@@ -8,3 +8,5 @@
 - A malicious party is referred to as **Mallory**
 - An eavesdropper as **Eve**
 - A trusted third party as **Trent**
+
+These kinds of names are referred to as [[Knowledge/Metasyntactic Variables\|Metasyntactic Variables]].

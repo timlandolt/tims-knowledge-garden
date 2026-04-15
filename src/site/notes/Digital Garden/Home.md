@@ -6,7 +6,7 @@
 ## Most used tags
 
 <p><span><ul>
-<li dir="auto">17 - <a href="#webdevelopement" class="tag" target="_blank" rel="noopener nofollow">#webdevelopement</a></li>
+<li dir="auto">19 - <a href="#webdevelopement" class="tag" target="_blank" rel="noopener nofollow">#webdevelopement</a></li>
 <li dir="auto">12 - <a href="#ruby-on-rails" class="tag" target="_blank" rel="noopener nofollow">#ruby-on-rails</a></li>
 <li dir="auto">9 - <a href="#ruby" class="tag" target="_blank" rel="noopener nofollow">#ruby</a></li>
 <li dir="auto">7 - <a href="#css" class="tag" target="_blank" rel="noopener nofollow">#css</a></li>
@@ -15,10 +15,10 @@
 
 ## Recently edited
 <p><span><ul>
+<li dir="auto">2026-04-15 - <a data-tooltip-position="top" aria-label="Knowledge/One-Way Data Binding.md" data-href="Knowledge/One-Way Data Binding.md" href="Knowledge/One-Way Data Binding.md" class="internal-link" target="_blank" rel="noopener nofollow">One-Way Data Binding</a></li>
+<li dir="auto">2026-04-15 - <a data-tooltip-position="top" aria-label="Knowledge/Two-Way Data Binding.md" data-href="Knowledge/Two-Way Data Binding.md" href="Knowledge/Two-Way Data Binding.md" class="internal-link" target="_blank" rel="noopener nofollow">Two-Way Data Binding</a></li>
 <li dir="auto">2026-04-14 - <a data-tooltip-position="top" aria-label="Knowledge/Names in Cryptography.md" data-href="Knowledge/Names in Cryptography.md" href="Knowledge/Names in Cryptography.md" class="internal-link" target="_blank" rel="noopener nofollow">Names in Cryptography</a></li>
 <li dir="auto">2026-04-09 - <a data-tooltip-position="top" aria-label="Knowledge/12 Factor App.md" data-href="Knowledge/12 Factor App.md" href="Knowledge/12 Factor App.md" class="internal-link" target="_blank" rel="noopener nofollow">12 Factor App</a></li>
 <li dir="auto">2026-04-08 - <a data-tooltip-position="top" aria-label="Knowledge/focus-visible.md" data-href="Knowledge/focus-visible.md" href="Knowledge/focus-visible.md" class="internal-link" target="_blank" rel="noopener nofollow">focus-visible</a></li>
-<li dir="auto">2026-04-07 - <a data-tooltip-position="top" aria-label="Knowledge/TypeScript.md" data-href="Knowledge/TypeScript.md" href="Knowledge/TypeScript.md" class="internal-link" target="_blank" rel="noopener nofollow">TypeScript</a></li>
-<li dir="auto">2026-04-07 - <a data-tooltip-position="top" aria-label="Knowledge/Rails Asset Pipeline.md" data-href="Knowledge/Rails Asset Pipeline.md" href="Knowledge/Rails Asset Pipeline.md" class="internal-link" target="_blank" rel="noopener nofollow">Rails Asset Pipeline</a></li>
 </ul></span></p>
 
