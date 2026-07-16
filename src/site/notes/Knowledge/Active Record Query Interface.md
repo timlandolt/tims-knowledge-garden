@@ -282,7 +282,7 @@ Customer.left_outer_joins(:reviews).distinct.select("customers.*, COUNT(reviews.
 
 
 ## Scopes
-
+	
 ```rb
 class Book < ApplicationRecord
   scope :out_of_print, -> { where(out_of_print: true) }
