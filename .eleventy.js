@@ -332,12 +332,26 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("taggify", function(str) {
-    return (
-      str &&
-      str.replace(tagRegex, function(match, precede, tag) {
-        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-      })
-    );
+    if (!str) return str;
+
+    // Temporarily replace existing anchor tags with placeholders to avoid double-processing
+    const anchors = [];
+    let tempStr = str.replace(/<a\b[^>]*>.*?<\/a>/gi, function(match) {
+      anchors.push(match);
+      return `___ANCHOR_PLACEHOLDER_${anchors.length - 1}___`;
+    });
+
+    // Apply tag conversion to remaining hashtags
+    tempStr = tempStr.replace(tagRegex, function(match, precede, tag) {
+      return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+    });
+
+    // Restore original anchor tags
+    tempStr = tempStr.replace(/___ANCHOR_PLACEHOLDER_(\d+)___/g, function(match, index) {
+      return anchors[parseInt(index)];
+    });
+
+    return tempStr;
   });
 
   eleventyConfig.addFilter("searchableTags", function(str) {
@@ -577,12 +591,26 @@ module.exports = function(eleventyConfig) {
 
   // Helper function to convert tags in canvas text nodes (same logic as taggify filter)
   function convertCanvasTags(str) {
-    return (
-      str &&
-      str.replace(tagRegex, function(match, precede, tag) {
-        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-      })
-    );
+    if (!str) return str;
+
+    // Temporarily replace existing anchor tags with placeholders to avoid double-processing
+    const anchors = [];
+    let tempStr = str.replace(/<a\b[^>]*>.*?<\/a>/gi, function(match) {
+      anchors.push(match);
+      return `___ANCHOR_PLACEHOLDER_${anchors.length - 1}___`;
+    });
+
+    // Apply tag conversion to remaining hashtags
+    tempStr = tempStr.replace(tagRegex, function(match, precede, tag) {
+      return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
+    });
+
+    // Restore original anchor tags
+    tempStr = tempStr.replace(/___ANCHOR_PLACEHOLDER_(\d+)___/g, function(match, index) {
+      return anchors[parseInt(index)];
+    });
+
+    return tempStr;
   }
 
   // Render markdown in canvas text nodes at build time
