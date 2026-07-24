@@ -358,10 +358,6 @@ ul.task-list {
             width: var(--dg-graph-width);
             height: var(--dg-graph-height);
         }
-
-        #graph-fs-btn {
-            margin-right: 0;
-        }
     }
 }
 
@@ -376,40 +372,6 @@ body:has(.content.canvas-page) .sidebar {
     padding: 12px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-// Fullscreen graph - outside sidebar to avoid containment issues
-.graph-fs {
-    position: fixed !important;
-    top: 50% !important;
-    left: 50% !important;
-    width: var(--dg-graph-fullscreen-width) !important;
-    height: var(--dg-graph-fullscreen-height) !important;
-    max-width: 90vw !important;
-    max-height: 90vh !important;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    display: flex !important;
-    flex-direction: column;
-    background-color: var(--background-secondary);
-    border: 1px solid var(--text-accent);
-    border-radius: var(--dg-graph-border-radius);
-    padding: var(--dg-mermaid-padding);
-
-    #link-graph {
-        width: 100% !important;
-        height: 100% !important;
-        flex: 1;
-    }
-
-    #graph-controls {
-        margin-top: 10px;
-        flex-shrink: 0;
-    }
-
-    .graph-title {
-        display: none;
-    }
 }
 
 .expand-line {
@@ -1397,70 +1359,6 @@ body.has-navbar .content {
             display: flex;
             align-items: center;
             line-height: 1;
-        }
-    }
-
-    .depth-control {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
-
-        label {
-            font-size: var(--dg-graph-ctrl-size);
-            opacity: 0.6;
-        }
-
-        .slider {
-            width: var(--dg-depth-slider-width);
-            display: flex;
-            align-items: center;
-
-            input[type="range"] {
-                width: 100%;
-                height: 4px;
-                -webkit-appearance: none;
-                appearance: none;
-                background: var(--text-muted);
-                border-radius: 2px;
-                outline: none;
-
-                &::-webkit-slider-thumb {
-                    -webkit-appearance: none;
-                    appearance: none;
-                    width: 12px;
-                    height: 12px;
-                    background: var(--text-normal);
-                    border-radius: 50%;
-                    cursor: pointer;
-                }
-
-                &::-moz-range-thumb {
-                    width: 12px;
-                    height: 12px;
-                    background: var(--text-normal);
-                    border-radius: 50%;
-                    cursor: pointer;
-                    border: none;
-                }
-            }
-
-            datalist {
-                display: none;
-            }
-        }
-
-        #depth-display {
-            background-color: var(--text-accent);
-            color: var(--background-primary);
-            min-width: var(--dg-depth-display-size);
-            height: var(--dg-depth-display-size);
-            font-size: 0.65rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            font-weight: 600;
         }
     }
 }
