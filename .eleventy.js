@@ -334,21 +334,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("taggify", function(str) {
     if (!str) return str;
 
-    // Temporarily replace existing anchor tags with placeholders to avoid double-processing
-    const anchors = [];
-    let tempStr = str.replace(/<a\b[^>]*>.*?<\/a>/gi, function(match) {
-      anchors.push(match);
-      return `___ANCHOR_PLACEHOLDER_${anchors.length - 1}___`;
+    // Remove existing tag anchor tags (from Obsidian) but keep their text content
+    // This matches anchors with href="#something" and class="tag"
+    let tempStr = str.replace(/<a\b[^>]*class="tag"[^>]*>(#[^<]+)<\/a>/gi, function(match, tagText) {
+      return tagText; // Just return the hashtag text
     });
 
-    // Apply tag conversion to remaining hashtags
+    // Apply tag conversion to hashtags
     tempStr = tempStr.replace(tagRegex, function(match, precede, tag) {
       return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-    });
-
-    // Restore original anchor tags
-    tempStr = tempStr.replace(/___ANCHOR_PLACEHOLDER_(\d+)___/g, function(match, index) {
-      return anchors[parseInt(index)];
     });
 
     return tempStr;
@@ -593,21 +587,15 @@ module.exports = function(eleventyConfig) {
   function convertCanvasTags(str) {
     if (!str) return str;
 
-    // Temporarily replace existing anchor tags with placeholders to avoid double-processing
-    const anchors = [];
-    let tempStr = str.replace(/<a\b[^>]*>.*?<\/a>/gi, function(match) {
-      anchors.push(match);
-      return `___ANCHOR_PLACEHOLDER_${anchors.length - 1}___`;
+    // Remove existing tag anchor tags (from Obsidian) but keep their text content
+    // This matches anchors with href="#something" and class="tag"
+    let tempStr = str.replace(/<a\b[^>]*class="tag"[^>]*>(#[^<]+)<\/a>/gi, function(match, tagText) {
+      return tagText; // Just return the hashtag text
     });
 
-    // Apply tag conversion to remaining hashtags
+    // Apply tag conversion to hashtags
     tempStr = tempStr.replace(tagRegex, function(match, precede, tag) {
       return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
-    });
-
-    // Restore original anchor tags
-    tempStr = tempStr.replace(/___ANCHOR_PLACEHOLDER_(\d+)___/g, function(match, index) {
-      return anchors[parseInt(index)];
     });
 
     return tempStr;
