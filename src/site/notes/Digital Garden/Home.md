@@ -5,13 +5,7 @@
 # Welcome!
 ## Most used tags
 
-<p><span><ul>
-<li dir="auto">20 - <code>#webdevelopement</code></li>
-<li dir="auto">12 - <code>#ruby-on-rails</code></li>
-<li dir="auto">9 - <code>#ruby</code></li>
-<li dir="auto">7 - <code>#css</code></li>
-<li dir="auto">5 - <code>#active-record</code></li>
-</ul></span></p>
+<div><ul class="dataview list-view-ul"><li><span>20 - <span><a href="#webdevelopement" class="tag" target="_blank" rel="noopener nofollow">#webdevelopement</a></span></span></li><li><span>12 - <span><a href="#ruby-on-rails" class="tag" target="_blank" rel="noopener nofollow">#ruby-on-rails</a></span></span></li><li><span>9 - <span><a href="#ruby" class="tag" target="_blank" rel="noopener nofollow">#ruby</a></span></span></li><li><span>7 - <span><a href="#css" class="tag" target="_blank" rel="noopener nofollow">#css</a></span></span></li><li><span>5 - <span><a href="#active-record" class="tag" target="_blank" rel="noopener nofollow">#active-record</a></span></span></li></ul></div>
 
 ## Recently edited
 <p><span><ul>
